@@ -2,7 +2,7 @@ name: Send API Requests Workflow
 
 on:
   schedule:
-    - cron: '* * * * *'  # Каждые 1 минуту
+    - cron: '*/5 * * * *'  # Каждые 5 минут
 
 jobs:
   send_requests:
